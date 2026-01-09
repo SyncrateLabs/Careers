@@ -59,45 +59,39 @@ export default function RecruitmentPage() {
     },
     {
       id: 2,
-      title: 'Product Designer',
-      department: 'Design',
-      location: 'New York, NY / Remote',
+      title: 'Senior Smart Contract Architect',
+      department: 'Engineering',
+      location: 'Dubai UAE',
       type: 'Full-time',
-      salary: '$120k - $170k',
+      salary: '$170k - $250k',
       posted: '5 days ago',
       description: {
-        about: "We're seeking a talented Product Designer to help shape the future of our platform. You'll work closely with product managers and engineers to create intuitive, beautiful experiences that delight our users.\n\nThis role offers the opportunity to work on challenging design problems and make a meaningful impact on millions of users.",
+        about: "We’re seeking a senior Smart Contract Architect to help design the core of our protocol. You’ll work closely with engineers, researchers, and product leads to build secure, scalable smart contracts that power real-world asset routing.\n\nThis role offers the opportunity to solve complex protocol problems and make a meaningful impact globally.",
         responsibilities: [
-          'Design end-to-end user experiences for web and mobile platforms',
-          'Create wireframes, prototypes, and high-fidelity mockups',
-          'Conduct user research and usability testing',
-          'Collaborate with engineers to ensure design implementation quality',
-          'Maintain and evolve our design system',
-          'Present design concepts to stakeholders'
+          'Design and architect core smart contracts for Syncrate’s RWA routing protocol',
+          'Implement secure, gas-efficient contracts with a strong focus on correctness and upgradability',
+          'Collaborate with protocol, frontend, and infrastructure teams on end-to-end execution',
+          'Review, test, and audit smart contract code to ensure production-grade security',
+          'Contribute to technical documentation and long-term protocol architecture decisions',
         ],
         requirements: [
-          '4+ years of product design experience',
-          'Strong portfolio demonstrating UX/UI design skills',
-          'Proficiency in Figma and other design tools',
-          'Experience with design systems and component libraries',
-          'Strong understanding of user-centered design principles',
-          'Excellent communication and collaboration skills',
-          'Experience designing for both web and mobile'
+          'Strong experience designing and deploying production-grade smart contracts (Solidity)',
+          'Deep understanding of EVM architecture, security patterns, and common attack vectors',
+          'Experience with protocol-level systems (DEXs, bridges, or onchain infrastructure)',
+          'Ability to reason about complex state transitions and edge cases',
+          'Comfortable working in early-stage, fast-moving startup environments',
         ],
         niceToHave: [
-          'Experience with motion design and prototyping',
-          'Basic understanding of HTML/CSS',
-          'Experience in B2B SaaS products',
-          'Background in user research methodologies'
+          'Experience with RWA protocols, compliance-aware assets, or permissioned systems',
+          'Familiarity with cross-chain messaging or interoperability frameworks',
+          'Prior involvement in audits or formal verification processes',
         ],
         benefits: [
-          'Competitive salary and equity package',
+          'Competitive salary and token equity package',
           'Comprehensive health, dental, and vision insurance',
           'Unlimited PTO and flexible working hours',
-          'Remote-first culture with optional office access',
-          'Professional development budget',
-          '401(k) with company matching',
-          'Home office stipend'
+          'Visa sponsorship to work in-office in the UAE',
+          'Professional development budget'
         ]
       }
     },
@@ -122,26 +116,24 @@ export default function RecruitmentPage() {
         requirements: [
           '5+ years of marketing experience, preferably in B2B2C and RWA tokenization ',
           'Proven track record of successful campaign execution',
-          'Strong analytical skills and data-driven mindset',
-          'Experience with marketing automation tools',
-          'Excellent written and verbal communication',
-          'Project management and organizational skills',
-          "Bachelor's degree in Marketing or related field"
+          'Proven experience leading marketing for a Web3, fintech, or infrastructure-focused startup',
+          'Strong understanding of crypto markets, token narratives, and ecosystem positioning',
+          'Experience owning end-to-end marketing strategy (brand, content, community, growth)',
+          'Ability to translate complex technical products into clear, compelling messaging',
+          "Comfortable working closely with founders, product, and BD teams"
         ],
         niceToHave: [
-          'Experience with SEO and content marketing',
-          'Knowledge of design tools like Figma or Canva',
-          'Background in SaaS or tech industry',
-          'Experience with paid advertising campaigns'
+          'Prior experience marketing RWA, DeFi, or infrastructure protocols',
+          'Existing relationships with crypto media, KOLs, or ecosystem partners',
+          'Experience launching products, testnets, or token-related campaigns'
         ],
         benefits: [
           'Competitive salary and token equity package',
           'Comprehensive health, dental, and vision insurance',
           'Unlimited PTO and flexible working hours',
           'Remote-first culture with optional office access',
+          'Visa sponsorship to work in-office in the UAE'
           'Professional development budget',
-          '401(k) with company matching',
-          'Home office stipend'
         ]
       }
     }
@@ -232,13 +224,13 @@ export default function RecruitmentPage() {
       {/* Header */}
       <header style={{ backgroundColor: 'white', borderBottom: '1px solid #e5e7eb', padding: '16px 0', position: 'sticky', top: 0, zIndex: 100 }}>
         <div style={{ maxWidth: '1200px', margin: '0 auto', padding: '0 24px', display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
-          <div style={{ fontSize: '24px', fontWeight: '600', color: '#111827' }}>TechCorp</div>
+          <div style={{ fontSize: '12px', fontWeight: '600', color: '#111827' }}>Syncrate</div>
           
           {/* Desktop Navigation */}
           <nav className="desktop-nav" style={{ display: 'flex', gap: '32px', fontSize: '14px' }}>
             <a href="#" style={{ color: '#6b7280', textDecoration: 'none' }}>Jobs</a>
             <a href="#" style={{ color: '#6b7280', textDecoration: 'none' }}>About</a>
-            <a href="#" style={{ color: '#6b7280', textDecoration: 'none' }}>Culture</a>
+            <a href="#" style={{ color: '#6b7280', textDecoration: 'none' }}>Blog</a>
           </nav>
 
           {/* Mobile Menu Button */}
@@ -263,7 +255,7 @@ export default function RecruitmentPage() {
           }}>
             <a href="#" style={{ color: '#6b7280', textDecoration: 'none', fontSize: '14px' }}>Jobs</a>
             <a href="#" style={{ color: '#6b7280', textDecoration: 'none', fontSize: '14px' }}>About</a>
-            <a href="#" style={{ color: '#6b7280', textDecoration: 'none', fontSize: '14px' }}>Culture</a>
+            <a href="#" style={{ color: '#6b7280', textDecoration: 'none', fontSize: '14px' }}>Blog</a>
           </nav>
         )}
       </header>
@@ -274,7 +266,7 @@ export default function RecruitmentPage() {
           <div>
             <div style={{ marginBottom: '32px' }}>
               <h1 style={{ fontSize: '36px', fontWeight: '600', color: '#111827', marginBottom: '8px' }}>Open Positions</h1>
-              <p style={{ fontSize: '16px', color: '#6b7280' }}>Join our team and help us build the future</p>
+              <p style={{ fontSize: '16px', color: '#6b7280' }}>Join a lean active team and let's rebuild the future of tokenization.</p>
             </div>
 
             <div style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
@@ -483,7 +475,7 @@ export default function RecruitmentPage() {
                       </div>
 
                       <div style={{ marginBottom: '20px' }}>
-                        <label style={{ display: 'block', fontSize: '14px', fontWeight: '500', color: '#374151', marginBottom: '8px' }}>Phone</label>
+                        <label style={{ display: 'block', fontSize: '14px', fontWeight: '500', color: '#374151', marginBottom: '8px' }}>Twitter</label>
                         <input
                           type="tel"
                           name="phone"
@@ -506,7 +498,7 @@ export default function RecruitmentPage() {
                       </div>
 
                       <div style={{ marginBottom: '20px' }}>
-                        <label style={{ display: 'block', fontSize: '14px', fontWeight: '500', color: '#374151', marginBottom: '8px' }}>Portfolio URL</label>
+                        <label style={{ display: 'block', fontSize: '14px', fontWeight: '500', color: '#374151', marginBottom: '8px' }}>Portfolio/Github URL</label>
                         <input
                           type="url"
                           name="portfolio"
@@ -530,7 +522,7 @@ export default function RecruitmentPage() {
                       </div>
 
                       <div style={{ marginBottom: '24px' }}>
-                        <label style={{ display: 'block', fontSize: '14px', fontWeight: '500', color: '#374151', marginBottom: '8px' }}>Cover letter</label>
+                        <label style={{ display: 'block', fontSize: '14px', fontWeight: '500', color: '#374151', marginBottom: '8px' }}>Why are you the right candidate for this position?</label>
                         <textarea
                           name="coverLetter"
                           value={formData.coverLetter}
@@ -557,7 +549,7 @@ export default function RecruitmentPage() {
                       <span>{selectedJob.department} Team</span>
                     </div>
                     <p style={{ fontSize: '13px', color: '#6b7280', lineHeight: '1.6' }}>
-                      Join a team of talented professionals building the future of our platform
+                      Join a team of talented professionals building the future of tokenized assets
                     </p>
                   </div>
                 </div>
