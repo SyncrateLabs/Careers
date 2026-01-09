@@ -247,7 +247,7 @@ export default function RecruitmentPage() {
       {/* Header */}
       <header style={{ backgroundColor: 'white', borderBottom: '1px solid #e5e7eb', padding: '16px 0', position: 'sticky', top: 0, zIndex: 100 }}>
         <div style={{ maxWidth: '1200px', margin: '0 auto', padding: '0 24px', display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
-          <div style={{ fontSize: '12px', fontWeight: '600', color: '#111827' }}>Syncrate</div>
+          <div style={{ fontSize: '18px', fontWeight: '600', color: '#111827' }}>Syncrate</div>
           
           {/* Desktop Navigation */}
           <nav className="desktop-nav" style={{ display: 'flex', gap: '32px', fontSize: '14px' }}>
