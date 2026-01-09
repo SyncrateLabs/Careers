@@ -53,7 +53,7 @@ export default function RecruitmentPage() {
           'Remote-first culture with optional office access',
           'Professional development budget',
           'Opportunity to travel around the world and attend some of the biggest blockchain conferences',
-          'Home office stipend'
+          'Home office stipend',
         ]
       }
     },
@@ -91,7 +91,7 @@ export default function RecruitmentPage() {
           'Comprehensive health, dental, and vision insurance',
           'Unlimited PTO and flexible working hours',
           'Visa sponsorship to work in-office in the UAE',
-          'Professional development budget'
+          'Professional development budget',
         ]
       }
     },
@@ -120,19 +120,19 @@ export default function RecruitmentPage() {
           'Strong understanding of crypto markets, token narratives, and ecosystem positioning',
           'Experience owning end-to-end marketing strategy (brand, content, community, growth)',
           'Ability to translate complex technical products into clear, compelling messaging',
-          "Comfortable working closely with founders, product, and BD teams"
+          "Comfortable working closely with founders, product, and BD teams",
         ],
         niceToHave: [
           'Prior experience marketing RWA, DeFi, or infrastructure protocols',
           'Existing relationships with crypto media, KOLs, or ecosystem partners',
-          'Experience launching products, testnets, or token-related campaigns'
+          'Experience launching products, testnets, or token-related campaigns',
         ],
         benefits: [
           'Competitive salary and token equity package',
           'Comprehensive health, dental, and vision insurance',
           'Unlimited PTO and flexible working hours',
           'Remote-first culture with optional office access',
-          'Visa sponsorship to work in-office in the UAE'
+          'Visa sponsorship to work in-office in the UAE',
           'Professional development budget',
         ]
       }
