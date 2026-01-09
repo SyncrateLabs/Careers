@@ -139,23 +139,46 @@ export default function RecruitmentPage() {
     }
   ];
 
-  const handleSubmit = () => {
-    if (!formData.firstName || !formData.lastName || !formData.email || !formData.resume) {
-      alert('Please fill in all required fields');
-      return;
-    }
-    alert("Application submitted successfully! We'll be in touch soon.");
-    setFormData({
-      firstName: '',
-      lastName: '',
-      email: '',
-      phone: '',
-      linkedin: '',
-      portfolio: '',
-      resume: null,
-      coverLetter: ''
+  const handleSubmit = async () => {
+  if (!formData.firstName || !formData.lastName || !formData.email || !formData.resume) {
+    alert('Please fill in all required fields');
+    return;
+  }
+
+  const formDataToSend = new FormData();
+  formDataToSend.append('firstName', formData.firstName);
+  formDataToSend.append('lastName', formData.lastName);
+  formDataToSend.append('email', formData.email);
+  formDataToSend.append('phone', formData.phone);
+  formDataToSend.append('linkedin', formData.linkedin);
+  formDataToSend.append('portfolio', formData.portfolio);
+  formDataToSend.append('coverLetter', formData.coverLetter);
+  formDataToSend.append('resume', formData.resume);
+
+  try {
+    const response = await fetch('/api/submit', {
+      method: 'POST',
+      body: formDataToSend,
     });
-  };
+    if (response.ok) {
+      alert("Application submitted successfully! We'll be in touch soon.");
+      setFormData({
+        firstName: '',
+        lastName: '',
+        email: '',
+        phone: '',
+        linkedin: '',
+        portfolio: '',
+        resume: null,
+        coverLetter: ''
+      });
+    } else {
+      alert('Error submitting application');
+    }
+  } catch (error) {
+    alert('Error submitting application');
+  }
+};
 
   const handleChange = (e) => {
     const { name, value } = e.target;
