@@ -103,24 +103,24 @@ export default function RecruitmentPage() {
     },
     {
       id: 3,
-      title: 'Marketing Manager',
+      title: 'Head of Marketing',
       department: 'Marketing',
       location: 'Remote',
       type: 'Full-time',
-      salary: '$100k - $140k',
+      salary: '$150k - $200k',
       posted: '1 week ago',
       description: {
-        about: "Join our marketing team to drive growth and brand awareness. You'll develop and execute marketing strategies across multiple channels, working with a creative and data-driven team.\n\nThis is a high-impact role where you'll have the autonomy to experiment and the support to succeed.",
+        about: "Join Syncrate to lead our marketing function and shape how the protocol is positioned to the world. You’ll define and execute go-to-market and brand strategy across multiple channels, working closely with the founder and ecosystem partners.\n\nThis is a high-impact leadership role with full ownership, autonomy to experiment, and direct influence on Syncrate’s growth and narrative.",
         responsibilities: [
-          'Develop and execute comprehensive marketing campaigns',
-          'Manage content marketing strategy and production',
-          'Analyze campaign performance and optimize for ROI',
-          'Collaborate with sales team on lead generation',
-          'Manage marketing budget and vendor relationships',
+          'Own and execute Syncrate’s overall marketing and brand strategy',
+          'Lead go-to-market planning for product launches, testnet, and partnerships',
+          'Manage content, social, and community growth across Web3 channels',
+          'Work closely with BD and ecosystem partners on co-marketing initiatives',
+          'Track performance metrics and continuously optimize campaigns and messaging',
           'Build and grow our social media presence'
         ],
         requirements: [
-          '5+ years of marketing experience, preferably in B2B',
+          '5+ years of marketing experience, preferably in B2B2C and RWA tokenization ',
           'Proven track record of successful campaign execution',
           'Strong analytical skills and data-driven mindset',
           'Experience with marketing automation tools',
@@ -135,7 +135,7 @@ export default function RecruitmentPage() {
           'Experience with paid advertising campaigns'
         ],
         benefits: [
-          'Competitive salary and equity package',
+          'Competitive salary and token equity package',
           'Comprehensive health, dental, and vision insurance',
           'Unlimited PTO and flexible working hours',
           'Remote-first culture with optional office access',
